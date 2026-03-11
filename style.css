@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+@font-face {
+    font-family: 'Minecrafter';
+    src: url('src/fonts/Minecrafter.Reg.ttf') format('truetype');
+}
+
+body {
+    background-color: #000000;
+}
+
+nav {
+    padding: 10px 50px 10px 50px;
+    background-color: #1c1c1c;
+}
+
+.logo {
+    display: flex;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.logo p {
+    font-family: 'Minecrafter', sans-serif;
+    align-self: center;
+}
+
+.logo img {
+    width: 5%;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*Contenedor Hero*/
+h1 {
+    font-size: 4rem;
+    color: #ffffff;
+    font-family: 'Minecrafter', sans-serif;
+    font-weight: lighter;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(src/img/fondo_hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.contenedorP_hero {
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+
+/*Seccion de overworld*/
+.section_overworld {
+    background-color: #7BB14A;
+    display: flex;
+    padding: 40px;
+}
+
+.titulo_overworld {
+    display: flex;
+    width: 45%;
+}
+
+.titulo_overworld img {
+    width: 50%;
+}
+
+.titulo_overworld h2 {
+    font-family: 'Minecrafter', sans-serif;
+    font-weight: lighter;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.titulo_overworld p {
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: right;
+}
+
+.informacion_overworld {
+    display: flex;
+    flex-wrap: wrap;
+    width: 55%;
+    padding: 20px;
+    gap: 30px;
+}
+
+.contenedor_info {
+    background-color: #6B5039;
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 30px);
+}
+
+.img_info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50%;
+}
+
+.img_info h3 {
+    font-family: 'Minecrafter', sans-serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.info_overworld {
+    padding: 10px;
+}
+
+.info_overworld p {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.info_overworld hr {
+    border: 1px solid #7BB14A;
+}
+
+.ciclo {
+    background-image: url(src/img/fondo_ciclo.png);
+}
+
+.clima {
+    background-image: url(src/img/fondo_clima.png);
+}
+
+.vegetacion {
+    background-image: url(src/img/fondo_vegetacion.png);
+}
+
+.flora {
+    background-image: url(src/img/fondo_flora.png);
+}
+
+/*Seccion de cuevas*/
+.section_cuevas {
+    width: 100%;
+}
+
+.img_cueva img {
+    width: 99vw
+}
